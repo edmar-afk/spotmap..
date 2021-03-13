@@ -6,15 +6,9 @@ const App = () => {
     const [inPlace, setInPlace] = React.useState(0);
     const [disabled, setDisabled] = React.useState(false);
     const images = [
-        { title: 'Image 1', url: 'img1.jpg' },
-        { title: 'Image 2', url: 'img2.jpg' },
-        { title: 'Image 3', url: 'img3.jpg' },
-        { title: 'Image 4', url: 'image4.jpg' },
-        { title: 'Image 5', url: 'image5.jpg' },
-        { title: 'Image 6', url: 'image6.jpg' },
-        { title: 'Image 7', url: 'image7.jpg' },
-        { title: 'Image 8', url: 'image8.jpg' },
-        { title: 'Image 9', url: 'img9.png' },
+        { title: 'Image 1', url: 'g1-img.jpg' },
+        { title: 'Image 2', url: 'g1-img1.jpg' },
+        { title: 'Image 3', url: 'g1-img2.jpg' },
     ];
     const onClick = (index) => { if (!disabled)
         setOpened(index); };
